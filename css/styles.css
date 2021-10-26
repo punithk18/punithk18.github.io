@@ -146,6 +146,7 @@ a:hover {
 
 .vertical-line {
   border-right: 5px solid #e38149 !important;
+  height: 155px;
 }
 
 .hr-heading {
@@ -586,6 +587,12 @@ input[type="checkbox"] {
 
 .header .text-container {
   margin-bottom: 7rem;
+}
+.header-title {
+  font-size: 125px;
+  color: white;
+  padding-bottom: 35px;
+  font-family: ui-serif;
 }
 
 .header h3 {
@@ -1178,6 +1185,13 @@ a:hover.back-to-top {
     padding-top: 10rem;
   }
 
+  .header-title {
+    font-size: 75px;
+    color: white;
+    padding-bottom: 35px;
+    font-family: ui-serif;
+  }
+
   .header .text-container {
     margin-bottom: 9rem;
   }
@@ -1446,7 +1460,7 @@ a:hover.back-to-top {
     right: 0;
     bottom: -10rem;
     left: 0;
-    width: 1500px;
+    width: 1300px;
     margin-right: auto;
     margin-left: auto;
   }
